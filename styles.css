@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+h2 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+#Table01:hover {
+   background-color: greenyellow;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+tr:nth-child(even){
+    font-style: inherit;
+}
+
+tr:nth-child(odd) {
+    font-style: italic;
+}
+
+body ul li:last-child{
+    font-style: italic;
+}
+
+@media (min-width: 500px) {
+    h1::before {
+        content: "Welcome to my page! Select the option you like to"
+    }
+}
+
+@media (max-width: 500px) {
+    h1::before {
+        content: "Welcome to my page!"
+    }
+}
+
+#row{
+    background-color: ivory;
+}
