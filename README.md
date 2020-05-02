@@ -7,7 +7,7 @@ Hello! My name is Carlos and this is my first project for CS50's Web Programming
 I made a simple Homepage with code that i learned in course lessons. In future, i would love to create art webpages (for example, 
 a page of Goya's bio, a page whose content is about music covers...). 
 
-### Code Used
+## Code Used
 
         The HTML file has a regular HTML boilerplate. I put <a href> list on the top of file in order to get from 
         any page to another.
