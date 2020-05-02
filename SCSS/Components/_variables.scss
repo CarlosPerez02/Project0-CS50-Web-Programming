@@ -1,21 +1,18 @@
-#Section04 {$main-color: red;
+$changecolour: #556e4e;
 
-    p {
-       $main-color: blue !global;
-       color: $main-color;
-    }
-    
-    a {
-      color: $main-color;
-    }
-    
+p:nth-child(3n+0) {
+    background-color: $changecolour;
 }
 
-#Section03 {
-  $base-color: #c6538c;
-$border-dark: rgba($base-color, 0.88);
-
-.alert {
-  border: 1px solid $border-dark;
+@mixin hover {
+  &:not([disabled]):hover {
+    @content;
+  }
 }
+
+#ScssSection01 {
+  border: 1px solid black;
+  @include hover {
+    border-width: 2px;
+  }
 }

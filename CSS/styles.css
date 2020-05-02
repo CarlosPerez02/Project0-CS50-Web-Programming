@@ -1,11 +1,10 @@
-#Section04 p {
-  color: red; }
+p:nth-child(3n+0) {
+  background-color: #556e4e; }
 
-#Section04 a {
-  color: red; }
-
-#Section03 .alert {
-  border: 1px solid rgba(198, 83, 140, 0.88); }
+#ScssSection01 {
+  border: 1px solid black; }
+  #ScssSection01:not([disabled]):hover {
+    border-width: 2px; }
 
 body {
   background-color: lightblue;
@@ -43,4 +42,4 @@ body ul li:last-child {
   background-color: ivory; }
 
 #List01 {
-  background-color: #4d4d4d; }
+  background-color: aqua; }
